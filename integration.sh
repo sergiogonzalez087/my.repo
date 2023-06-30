@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/sergiogonzalez/js
 
-git clone https://github.com/sergiogonzalez087/my.repo/upload
+git pull https://github.com/sergiogonzalez087/my.repo.git
 
 mv /home/sergiogonzalez/my.repo/integrationconfig.json /home/sergiogonzalez/js
 mv /mnt/versiones/soysocio/KnownUser/integrationconfig.json /mnt/versiones/soysocio/KnownUser/js.old/integrationconfig.json$(date +"%Y%m%d")
